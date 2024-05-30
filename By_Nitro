@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "make Nitr0_Pitr0",Name = "Inarki Hub f0r Murder vs sheriff", HidePremium = false, SaveConfig = true, ConfigFolder = ""})
+local Window = OrionLib:MakeWindow({IntroText = "make Nitr0_Pitr0",Name = "Nitro Hub f0r Murder vs sheriff", HidePremium = false, SaveConfig = true, ConfigFolder = ""})
 
 local Tab = Window:MakeTab({
 	Name = "Menu",
