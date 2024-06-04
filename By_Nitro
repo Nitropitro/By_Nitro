@@ -19,6 +19,24 @@ Tab:AddLabel("Subscribe Inarkici")
 
 Tab:AddLabel("Join discord server https://dsc.gg/inarki-universe")
 
+Tab:AddButton({
+	Name = "Click to copy Youtube Nitr0_Pitr0",
+	Callback = function()
+      		print("button pressed")
+setclipboard("text going to clipboard goes here")
+toclipboard("https://m.youtube.com/channel/UC_OZbww_vDIDu6kKn70iVng")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Click to cpoy YouTube iNarkici",
+	Callback = function()
+      		print("button pressed")
+setclipboard("text going to clipboard goes here")
+toclipboard("https://m.youtube.com/@iNarkici")
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Player",
 	Icon = "rbxassetid://15862434941",
